@@ -1,0 +1,14 @@
+{
+  "CASCADE_PERMS_V14": {
+    "CascadeHint": "Die ausgewählten Berechtigungsänderungen auf alle Journals/Dokumente in diesem Ordner und seinen Unterordnern anwenden.",
+    "CascadeNote": "Nur ausgewählte Berechtigungswerte werden geändert. „Keine Änderung“ lässt den jeweiligen Eintrag unverändert; „Standard“ entfernt die individuelle Berechtigung dieses Spielers.",
+    "ResetHint": "Alle enthaltenen Dokumente auf Berechtigungsvererbung vom jeweiligen übergeordneten Ordner zurücksetzen.",
+    "ResetNote": "Achtung: Entfernt alle individuellen Spielerberechtigungen und setzt die Standardberechtigung des Dokuments auf „Vererben“. Diese Rücksetzung hat Vorrang vor den ausgewählten Werten.",
+    "SuccessCascade": "Cascade Permissions: {count} Dokument(e) in {folders} Unterordner(n) aktualisiert.",
+    "SuccessReset": "Cascade Permissions: {count} Dokument(e) in {folders} Unterordner(n) auf Vererbung vom übergeordneten Ordner zurückgesetzt.",
+    "NoDocuments": "Cascade Permissions: In diesem Ordnerbaum wurden keine Dokumente gefunden.",
+    "NoChanges": "Es wurden keine Berechtigungsänderungen ausgewählt. Verwende die Rücksetzoption, um alle Überschreibungen zu entfernen.",
+    "ErrorCascade": "Cascade folder permission: Vorgang fehlgeschlagen. Einzelheiten stehen in der Browser-Konsole (F12).",
+    "PartialError": "Cascade folder permission: Einige Dokumente wurden aktualisiert, {failed} Dokument(e) sind fehlgeschlagen. Einzelheiten stehen in der Browser-Konsole (F12)."
+  }
+}
