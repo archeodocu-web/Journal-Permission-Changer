@@ -1,0 +1,40 @@
+{
+  "id": "cascade-folder-permission",
+  "title": "cascade folder permission",
+  "description": "A Foundry VTT v14-compatible fork of Cascade folder permission with alphanumeric user-ID support and an explicit reset-to-parent-inheritance action.",
+  "version": "0.2.2",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "authors": [
+    {
+      "name": "Bruce A. Moser (upstream author)"
+    },
+    {
+      "name": "Local V14 compatibility patch"
+    }
+  ],
+  "url": "https://github.com/bruceamoser/foundry-apply-permissions",
+  "license": "LICENSE.md",
+  "scripts": [
+    "scripts/cascade-permissions.js"
+  ],
+  "styles": [
+    "styles/cascade-permissions.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json"
+    },
+    {
+      "lang": "de",
+      "name": "Deutsch",
+      "path": "languages/de.json"
+    }
+  ],
+  "type": "module",
+  "media": []
+}

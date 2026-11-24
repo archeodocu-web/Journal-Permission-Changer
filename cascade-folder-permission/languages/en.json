@@ -1,0 +1,14 @@
+{
+  "CASCADE_PERMS_V14": {
+    "CascadeHint": "Apply the selected permission changes to every document in this folder and its sub-folders.",
+    "CascadeNote": "Only selected permission values are changed. “No Change” leaves that entry untouched; “Default” removes that user's explicit override.",
+    "ResetHint": "Reset all contained documents to inherit permissions from their parent folders.",
+    "ResetNote": "Destructive: removes every explicit per-user override and sets the document default to Inherit. This reset takes precedence over the selected values.",
+    "SuccessCascade": "Cascade Permissions: updated {count} document(s) across {folders} sub-folder(s).",
+    "SuccessReset": "Cascade Permissions: reset {count} document(s) to parent-folder inheritance across {folders} sub-folder(s).",
+    "NoDocuments": "Cascade Permissions: no documents found in this folder tree.",
+    "NoChanges": "No permission changes were selected. Use the reset option to clear all overrides.",
+    "ErrorCascade": "Cascade folder permission: operation failed. Check the browser console (F12).",
+    "PartialError": "Cascade folder permission: updated some documents, but {failed} failed. Check the browser console (F12)."
+  }
+}
